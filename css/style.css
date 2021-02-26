@@ -1,1 +1,43 @@
 /* COMMON */
+.small-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    padding: 20px 0;
+}
+
+header nav {
+    text-align: right;
+}
+
+header .burger-menu {
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/* END HEADER */
+
+
+/* MAIN */
+/* END MAIN */
+
+
+/* FOOTER */
+/* END FOOTER */
