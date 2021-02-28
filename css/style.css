@@ -275,4 +275,14 @@ footer {
 }
 /* End Info */
 
+
+/* Terms */
+.border-top {
+    border-top: 1px solid gray;
+}
+
+.border-bot {
+    border-bottom: 1px solid gray;
+}
+/* End Terms */
 /* END FOOTER */
