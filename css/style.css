@@ -4,9 +4,16 @@
     margin: auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
-header {
-    padding: 20px 0;
+
+
+/* Nav */
+header .nav-top {
+    padding: 20px;
 }
 
 header nav {
@@ -30,12 +37,89 @@ header .burger-menu {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu.lang li{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.menu.lang li:last-child {
+    border-right: none;
+}
+
+.centred {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/hero-bg.jpg);
+    height: 550px;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.jumbotron .teaser {
+    text-align: center;
+}
+
+.jumbotron .teaser h1{
+    font-size: 50px;
+}
+
+.jumbotron .teaser p {
+    padding: 25px;
+    font-size: 20px;
 }
 /* END HEADER */
 
 
 /* MAIN */
+
+/* SECTION MERC */
+#merchandise {
+    padding: 20px 0;
+}
+
+#merchandise [class*="col-"]:first-child {
+    padding-right: 10px;
+}
+
+#merchandise [class*="col-"]:last-child {
+    padding-left: 10px;
+}
+
+.inner-col {
+    padding: 20px;
+}
+
+.content-col {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.content-col p {
+    padding: 20px 0 ;
+}
+/* END SECTION MERC */
+
+/* SECTION BANNER */
+#banner {
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 500px;
+    background-size: cover;
+}
+/* END SECTION BANNER */
+
+
 /* END MAIN */
 
 
